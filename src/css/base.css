@@ -3,6 +3,11 @@ body {
     color: #FFF;;
     background-color: #121212;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .container {
     max-width: 1240px;
     margin: 0 auto;
