@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 410px;
+  padding-bottom: 50px;
 }
 
 .our-courses-title {
@@ -55,17 +56,15 @@
 }
 
 /* .our-courses-container {
-   display: flex;
-  flex-wrap: wrap;
-   width: 347px;
-  height: 452px;
-  flex-shrink: 0;
+  margin: 0;
 } */
 
 .our-courses-list {
   list-style-type: none;
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 /* .our-courses-block {
@@ -87,7 +86,7 @@
 }
 
 .our-courses-number {
-  padding-left: 32px;
+  display: flex;
   color: rgba(255, 255, 255, 0.4);
   font-family: DM Sans;
   font-size: 14px;
@@ -95,6 +94,8 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  justify-content: space-between;
+  padding-left: 32px;
 }
 
 .our-courses-project {
@@ -104,7 +105,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
-  padding-top: 32px;
+  padding-top: 96px;
   padding-bottom: 180px;
   padding-left: 32px;
   width: 265px;
@@ -118,24 +119,34 @@
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  padding-left: 32px;
-  padding-bottom: 32px;
-  width: 283px;
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  text-align: start;
 }
 
 .our-courses-social {
   display: flex;
-  justify-content: space-between;
-  padding-top: 32px;
-  width: 32px;
-  height: 32px;
   position: absolute;
   top: 32px;
-  right: 32px;
+  gap: 237px;
 }
 
-.our-courses-icon {
+/* .our-courses-icon {
   flex-shrink: 0;
   border-radius: 50%;
   background-color: #1d1d1d;
+  width: 20px;
+  height: 20px;
+} */
+
+.our-courses-icon-container {
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
