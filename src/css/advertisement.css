@@ -1,0 +1,47 @@
+advertisement-section {
+    border: 3px solid #FFF;
+}
+.marquee {
+overflow: hidden;
+font-weight: 400;
+font-size: 59px;
+text-transform: uppercase;
+line-height: 1.08;
+letter-spacing: -0.02em;
+
+border: 1px solid rgba(255, 255, 255, 0.20);
+
+}
+@media screen and (min-width:320px) {
+    
+}
+.marquee__inner {
+  display: flex;
+  padding: 24px 0 24px 100px;
+  margin: 0 auto;
+}
+
+.marquee__line {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 10px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.marquee__line-accent {
+color: #BEA69E;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
+  }
+  
+  to {
+    transform: translateX(-100%);
+  }
+}
