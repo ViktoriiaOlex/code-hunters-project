@@ -117,7 +117,7 @@
   background-color: #1d1d1d;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     max-width: 768px;
     width: 768px;
@@ -126,8 +126,8 @@
   .section {
     padding: 32px;
   }
-}
-
+} */
+/* 
 @media (min-width: 320px) and (max-width: 375px) {
   .container {
     max-width: 375px;
@@ -137,4 +137,4 @@
   .section {
     padding: 20px;
   }
-}
+} */
