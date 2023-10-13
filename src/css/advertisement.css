@@ -12,9 +12,7 @@ letter-spacing: -0.02em;
 border: 1px solid rgba(255, 255, 255, 0.20);
 
 }
-@media screen and (min-width:320px) {
-    
-}
+
 .marquee__inner {
   display: flex;
   padding: 24px 0 24px 100px;
@@ -45,3 +43,6 @@ color: #BEA69E;
     transform: translateX(-100%);
   }
 }
+/* @media screen and (min-width:320px) {
+    
+} */
