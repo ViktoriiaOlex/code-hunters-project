@@ -4,60 +4,117 @@
  |============================
 */
 
-/* .our-courses-section {
-
+.our-courses-section {
+  display: flex;
+  width: 1081px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin: 150px 100px;
 }
 
 .our-courses-hero {
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 410px;
 }
 
 .our-courses-title {
-
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: -0, 04em;
 }
 
 .our-courses-span {
-
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0, 04em;
 }
 
 .our-courses-hero-pgf {
-
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0, 02em;
 }
 
-.our-courses-container {
-
-}
+/* .our-courses-container {
+   display: flex;
+  flex-wrap: wrap;
+   width: 347px;
+  height: 452px;
+  flex-shrink: 0;
+} */
 
 .our-courses-list {
-
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
 }
 
-.our-courses-block {
-
-}
+/* .our-courses-block {
+  width: 347px;
+  height: 452px;
+  flex-shrink: 0;
+} */
 
 .our-courses-benefit {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+}
 
+.our-courses-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
 .our-courses-project {
-
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
 }
 
 .our-courses-paragraf {
-
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
-.social-list {
+/* .our-courses-social {
 
-}
-
-.our-courses-social {
-
-}
+} */
 
 .our-courses-icon {
-
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #1d1d1d;
 }
 
 @media (min-width: 768px) {
@@ -67,15 +124,17 @@
   }
 
   .section {
-    padding: ;
+    padding: 32px;
   }
+}
 
-  @media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .container {
     max-width: 375px;
     width: 320px;
   }
 
   .section {
-    padding: ;
-  } */
+    padding: 20px;
+  }
+}
