@@ -76,6 +76,7 @@
 
 .our-courses-benefit {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 347px;
   height: 452px;
@@ -126,34 +127,15 @@
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
 }
 
 .our-courses-icon {
-  width: 32px;
-  height: 32px;
   flex-shrink: 0;
   border-radius: 50%;
   background-color: #1d1d1d;
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    width: 768px;
-  }
-
-  .section {
-    padding: 32px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 375px) {
-  .container {
-    max-width: 375px;
-    width: 320px;
-  }
-
-  .section {
-    padding: 20px;
-  }
 }
