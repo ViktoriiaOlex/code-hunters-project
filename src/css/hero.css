@@ -1,268 +1,320 @@
 .hero-section{
-
-}
-.container{
-
-}
-
-.hero-inner{
-    
-}
-
-.hero-input{
-
-}
-
-.hero-text{
-
-}
-
-.hero-text-inner{
-
-}
-
-.hero-paragraf{
-
-}
-
-.paragraf-hero-inner{
-
-}
-
-.hero-wrap{
-
-}
-
-.wrap-image{
-
-}
-
-.image{
-
-}
-
-.wrap-div-hero{
-
-}
-
-.heri-link-students{
-
-}
-
-.hero-svg-input{
-
-}
-
-.hero-block{
-
-}
-
-.hero-block-wrap{
-
-}
-
-.svg-input-block{
-
-}
-
-.hero-block-input{
-
-}
-
-.hero-tabl{
-    
-}
-
-.hero-text-wrap{
-
-}
-
-.hero-text-info{
-
-}
-
-.hero-text-input{
-
-}
-
-.paragraf-info-wrap{
-
-}
-
-@media screen and (min-width:768px){
-    .hero-section{
-
-    }
-    .container{
-    
-    }
-    
-    .hero-input{
-    
-    }
-    
-    .hero-text{
-    
-    }
-    
-    .hero-text-inner{
-    
-    }
-    
-    .hero-paragraf{
-    
+    width: 100%;
+    padding-bottom: 150px;
     }
     
     .hero-inner{
-        
-    }
-    
-    .hero-wrap{
-    
-    }
-    
-    .wrap-image{
-    
-    }
-    
-    .image{
-    
-    }
-    
-    .wrap-div-hero{
-    
-    }
-    
-    .heri-link-students{
-    
-    }
-    
-    .hero-svg-input{
-    
-    }
-    
-    .hero-block{
-    
-    }
-    
-    .hero-block-wrap{
-    
-    }
-    
-    .svg-input-block{
-    
-    }
-    
-    .hero-block-input{
-    
-    }
-    
-    .hero-tabl{
-        
-    }
-    
-    .hero-text-wrap{
-    
-    }
-    
-    .hero-text-info{
-    
-    }
-    
-    .hero-text-input{
-    
-    }
-    
-    .paragraf-info-wrap{
-    
-    }
-}
-
-@media screen and (min-width:1280px){
-    .hero-section{
-
-    }
-    .container{
-    
+    display: flex;
+    background-color: #1d1d1d;
+    border-radius: 30px;
+    width: 100%;
+    height: 600px;
+    padding: 80px 50px 0 ;
     }
     
     .hero-input{
-    
+    max-width: 563px;
+    height: 204px;
+    margin-bottom: 20px;
     }
     
     .hero-text{
-    
+      max-width: 563px;
+      color: #FFF;
+      font-size: 64px;
+      font-weight: 500;
+      line-height:1.06;
+      letter-spacing: -0.03em;
     }
     
     .hero-text-inner{
-    
+      color: #BEA69E;
+      font-size: 64px;
+      font-style: italic;
+      font-weight: 400;
+      line-height:1.06;
+      letter-spacing: -0.04em;
     }
     
     .hero-paragraf{
-    
+    width: 418px;
     }
     
-    .hero-inner{
-        
+    .paragraf-hero-inner{
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
     }
     
     .hero-wrap{
-    
+    display: flex;
+    width: 388px;
+    height: 54px;
+    margin-top: 136px;
     }
     
     .wrap-image{
-    
+    width: 135px;
     }
     
     .image{
-    
+    padding-right: 12px;
     }
     
     .wrap-div-hero{
-    
+    display: flex;
+    flex-direction:column;
+    max-width: 82px;
+    height: 56px;
     }
     
-    .heri-link-students{
-    
+    /* .hero-wrap-inner{
+  
+    } */
+  
+    /* .hero-link{
+      row-gap: 8px;
+    } */
+  
+    .hero-link-students{
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 400;
+      line-height:1.25;
+      letter-spacing: -0.04em;
     }
     
-    .hero-svg-input{
-    
-    }
-    
+
     .hero-block{
-    
+    display: flex;
+    margin-left: 40px;
     }
     
-    .hero-block-wrap{
-    
+    .hero-arrow-link{
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    fill: #1d1d1d;
+    background-color:   #BEA69E;
+    border-radius: 100%;
     }
     
-    .svg-input-block{
+    /* .hero-block-input{
     
-    }
+    } */
     
-    .hero-block-input{
-    
-    }
-    
-    .hero-tabl{
+    /* .hero-tabl{
         
     }
-    
+     */
     .hero-text-wrap{
-    
+      padding-bottom: 8px;
     }
     
     .hero-text-info{
-    
+      color: rgba(255, 255, 255, 0.50);
+      font-size: 16px;
+      font-weight: 400;
+      line-height:1.25;
+      letter-spacing: -0.04em;
     }
     
-    .hero-text-input{
+    /* .hero-text-input{
     
-    }
+    } */
     
     .paragraf-info-wrap{
-    
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 500;
+      line-height:1.25;
+      letter-spacing: -0.04em;
     }
-}
+  /*   
+    .hero-photograf{
+  
+  
+    } */
+  
+    @media screen and (min-width:768px){
+        .hero-section{
+    
+        }
+        .container{
+        
+        }
+        
+        .hero-input{
+        
+        }
+        
+        .hero-text{
+        
+        }
+        
+        .hero-text-inner{
+        
+        }
+        
+        .hero-paragraf{
+        
+        }
+        
+        .hero-inner{
+            
+        }
+        
+        .hero-wrap{
+        
+        }
+        
+        .wrap-image{
+        
+        }
+        
+        .image{
+        
+        }
+        
+        .wrap-div-hero{
+        
+        }
+        
+        .heri-link-students{
+        
+        }
+        
+        .hero-svg-input{
+        
+        }
+        
+        .hero-block{
+        
+        }
+        
+        .hero-block-wrap{
+        
+        }
+        
+        .svg-input-block{
+        
+        }
+        
+        .hero-block-input{
+        
+        }
+        
+        .hero-tabl{
+            
+        }
+        
+        .hero-text-wrap{
+        
+        }
+        
+        .hero-text-info{
+        
+        }
+        
+        .hero-text-input{
+        
+        }
+        
+        .paragraf-info-wrap{
+        
+        }
+    }
+    
+    /* @media screen and (min-width:1080px){
+        .hero-section{
+    
+        }
+        .container{
+        
+        }
+        
+        .hero-input{
+        
+        }
+        
+        .hero-text{
+        
+        }
+        
+        .hero-text-inner{
+        
+        }
+        
+        .hero-paragraf{
+        
+        }
+        
+        .hero-inner{
+            
+        }
+        
+        .hero-wrap{
+        
+        }
+        
+        .wrap-image{
+        
+        }
+        
+        .image{
+        
+        }
+        
+        .wrap-div-hero{
+        
+        }
+        
+        .heri-link-students{
+        
+        }
+        
+        .hero-svg-input{
+        
+        }
+        
+        .hero-block{
+        
+        }
+        
+        .hero-block-wrap{
+        
+        }
+        
+        .svg-input-block{
+        
+        }
+        
+        .hero-block-input{
+        
+        }
+        
+        .hero-tabl{
+            
+        }
+        
+        .hero-text-wrap{
+        
+        }
+        
+        .hero-text-info{
+        
+        }
+        
+        .hero-text-input{
+        
+        }
+        
+        .paragraf-info-wrap{
+        
+        }
+    }  */
