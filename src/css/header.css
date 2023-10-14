@@ -1,8 +1,4 @@
-/**
- |============================
- | Header
- |============================
-*/
+/* Header */
 
 /* Mobile Screen */
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
@@ -13,6 +9,7 @@
     height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
   }
   .header-nav {
     display: flex;
@@ -209,36 +206,81 @@
     color: #bea69e;
   }
 }
-/**
- |============================
- | Mobile Menu Styles
- |============================
-*/
+
+/* Mobile Menu Styles */
+
+/* Mobile Screen */
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .mobile-menu-container {
-    position: fixed;
+  .header-menu {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 20px;
     width: 218px;
-    min-height: 812px;
-    background-color: #bea69e;
-    transform: translateY(100%);
-  }
-  .mobile-menu-inner {
-    /* transform: scale(1);
-    display: flex;
-     justify-content: center;
-    align-items: center;
-    width: 100%;
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    pointer-events: none;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bea69e;
+    background-image: url('../img/header-img/cam_mob.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    background-size: 218px cover;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 767.98px) and (min-resolution: 192dpi) {
+  .header-menu {
+    background-image: url('../img/header-img/cam_mob@2x.jpg');
+    max-width: 218px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .header-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #bea69e;
+    background-image: url('../img/header-img/cam_mob.jpg, ');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .header-menu.is-open {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: block;
   }
 
-  .mobile-menu-list {
+  .header-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    fill: black;
+  }
+
+  .header-menu-list {
     display: flex;
     flex-direction: column;
   }
@@ -249,32 +291,11 @@
     pointer-events: none;
   }
 
-  .is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    display: block;
-  }
-
-  .mobile-menu-link {
-  }
-  .mobile-menu-image-mobile,
-  .mobile-menu-image-tablet {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: lightgray;
-    background-image: url(../img/header-img/cam_mob.jpg) no-repeat;
-    transform: rotate(-90deg);
-  }
-
-  .mobile-menu-icon {
-  }
-  .mobile-menu-list {
+  .header-menu-list {
     margin-bottom: auto;
   }
 
-  .mobile-menu-link {
+  .header-menu-link {
     color: #121212;
     font-size: 14px;
     font-style: normal;
@@ -282,7 +303,36 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  .mobile-menu-link:hover {
+  .header-link:hover {
     font-weight: 700;
+  }
+}
+
+/* Tablet Screen */
+@media screen and (min-width: 768px) and (max-width: 1287.98px) {
+  .header-menu {
+    background-image: url('../img/header-img/cam_tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-resolution: 192dpi) {
+  .header-menu {
+    background-image: url('../img/header-img/cam_tablet@2x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop Screen */
+@media screen and (min-width: 1280px) {
+  .header-menu {
+    display: none;
   }
 }

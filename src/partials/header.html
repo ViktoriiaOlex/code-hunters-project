@@ -57,57 +57,69 @@
 
 <!-- Mobile-menu -->
 
-<div class="mobile-menu-container is-hidden">
-  <div class="mobile-menu-inner">
-    <button class="mobile-menu-button" type="button">
-      <svg class="mobile-menu-icon" width="32" height="32">
+<div class="header-menu is-open">
+  <div class="header-menu-container">
+    <button class="header-menu-button" type="button">
+      <svg class="header-menu-icon" width="32" height="32">
         <use href="../img/icons.svg#icon-close"></use>
       </svg>
     </button>
-    <ul class="mobile-menu-list">
+    <ul class="header-menu-list">
       <li>
-        <a class="mobile-menu-link" id="about" href="./index.html">About us</a>
+        <a class="header-menu-link" id="about" href="./index.html">About us</a>
       </li>
       <li>
-        <a class="mobile-menu-link" id="courses" href="./index.html"
+        <a class="header-menu-link" id="courses" href="./index.html"
           >Our courses</a
         >
       </li>
       <li>
-        <a class="mobile-menu-link" id="mentors" href="./index.html"
+        <a class="header-menu-link" id="mentors" href="./index.html"
           >Our mentors</a
         >
       </li>
       <li>
-        <a class="mobile-menu-link" id="reviews" href="./index.html">Reviews</a>
+        <a class="header-menu-link" id="reviews" href="./index.html">Reviews</a>
       </li>
       <li>
-        <a class="mobile-menu-link" id="contacts" href="./index.html"
+        <a class="header-menu-link" id="contacts" href="./index.html"
           >Contacts</a
         >
       </li>
     </ul>
-    <img
-      class="mobile-menu-image-mobile"
-      srcset="
-        ./img/header-img/cam_mob.jpg    1x,
-        ./img/header-img/cam_mob@2x.jpg 2x
-      "
-      src="./img/header-img/cam_mob.jpg"
-      alt="Camera"
-      width="329"
-      height="218"
-    />
-    <img
-      class="mobile-menu-image-tablet"
-      srcset="
-        ./img/header-img/cam_tablet.jpg    1x,
-        ./img/header-img/cam_tablet@2x.jpg 2x
-      "
-      src="./img/header-img/cam_mob.jpg"
-      alt="Camera"
-      width="476"
-      height="480"
-    />
+    <!-- <div class="header-image">
+      <picture> -->
+    <!-- Mobile
+        <source
+          media="(max-width: 767.98px)"
+          srcset="
+            ./img/header-img/cam_mob.jpg    1x,
+            ./img/header-img/cam_mob@2x.jpg 2x
+          "
+        />
+        <img
+          class="mobile-menu-image"
+          src="./img/header-img/cam_mob.jpg"
+          alt="Camera"
+          width="329"
+          height="218"
+        />
+        Tablet -->
+    <!-- <source
+          media="(max-width: 1279.98px)"
+          srcset="
+            ./img/header-img/cam_tablet.jpg    1x,
+            ./img/header-img/cam_tablet@2x.jpg 2x
+          "
+        />
+        <img
+          class="mobile-menu-image"
+          src="./img/header-img/cam_tablet.jpg"
+          alt="Camera"
+          width="480"
+          height="476"
+        />
+      </picture> -->
+    <!-- </div> -->
   </div>
 </div>
