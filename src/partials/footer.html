@@ -1,8 +1,62 @@
-<footer id="contacts" class="footer">
+
+<footer class="footer" id="contacts">
   <div class="container">
-    <a class="footer-logo" href="#">
+    <div class="footer-logo">
       <svg class="footer-logo-icon" width="123" height="16">
-        <use href="../img/icons.svg#icon-logo"></use>
+
+        <use href="./img/icons.svg#icon-logo"></use>
+      </svg>
+      
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a href="tel:+380665438912">UK: +38 066 543 8912</a>
+          </li>
+          <li class="footer-address-item"><p>Ukraine, Kyiv</p></li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-media">
+      <div>
+        <ul class="footer-social">
+          <li>
+            <a
+              class="footer-social-item"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer-social-item"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer-social-item"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="footer-section">
+          <li class="footer-links"><a href="#about">About us</a></li>
+          <li class="footer-links"><a href="#courses">Our courses</a></li>
+          <li class="footer-links"><a href="#mentors">Our mentors</a></li>
+          <li class="footer-links"><a href="#reviews">Reviews</a></li>
+          <li class="footer-links"><a href="#contacts">contacts</a></li>
+        </ul>
+      </div>
+    </div>
+
+       <use href="../img/icons.svg#icon-logo"></use>
       </svg>
     </a>
     <address class="footer-address">
@@ -37,25 +91,27 @@
       <li><a href="#reviews">Reviews</a></li>
       <li><a href="#contacts">contacts</a></li>
     </ul>
+
     <form class="footer-form">
-      <label class="footer-email" for="email-footer">
-        <input
-          class="footer-input"
-          name="user-name"
-          type="email"
-          id="email-footer"
-          placeholder="Enter your email"
-        />
-      </label>
+      <label class="footer-email" for="email-footer"></label>
+      <input
+        class="footer-input"
+        name="user-name"
+        type="email"
+        id="email-footer"
+        placeholder="Enter your email"
+      />
       <button class="footer-button" type="submit">Go</button>
     </form>
-    <ul class="footer-privacy">
-      <li><p>Privacy Policy</p></li>
-      <li><p>Public Offering Agreement</p></li>
-    </ul>
-    <ul class="footer-focus">
-      <li><p>2023 Focus Frame</p></li>
-      <li><p>© All rights reserved</p></li>
-    </ul>
+    <div class="footer-privacy-policy">
+      <p class="footer-privacy-policy-text">
+        Privacy Policy <br />
+        Public Offering Agreement
+      </p>
+      <p class="footer-privacy-policy-text footer-privacy-text">
+        2023 Focus Frame <br />
+        © All rights reserved
+      </p>
+    </div>
   </div>
 </footer>
