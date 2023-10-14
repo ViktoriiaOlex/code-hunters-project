@@ -1,12 +1,12 @@
+
 @media (min-width: 320px) and (max-width: 375px) {
     .footer {
             padding-top: 40px;
             padding-left: 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.2);
             background-position: center;
-            background-image: url(../img/footer-img/bg-lines_mob.png);
+            background-image: url(../img/footer-img/bg-lines_mob@2x.png);
             background-size: cover;
-    
         }
 
         .footer-logo {
@@ -93,6 +93,4 @@
            max-width: 116px; 
         }
 }
-
-
 
