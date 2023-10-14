@@ -140,6 +140,11 @@
   height: 20px;
 } */
 
+.our-courses-link:focus + .our-courses-icon {
+  outline: none;
+  text-decoration: none;
+}
+
 .our-courses-icon-container {
   flex-shrink: 0;
   border-radius: 50%;
@@ -149,4 +154,74 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/**
+ |============================
+ | Tablet
+ |============================
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1287.98px) {
+  .our-courses-section {
+    max-width: 768px;
+  }
+
+  .our-courses-hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 58px;
+    padding-bottom: 50px;
+  }
+
+  .our-courses-container {
+    max-width: 100%;
+    flex-basis: calc(100% - 20px) / 3;
+  }
+
+  .our-courses-list {
+    flex-basis: calc(100% - 20px) / 3;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .our-courses-benefit {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 342px;
+    height: 452px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  }
+}
+
+/**
+ |============================
+ | Mobile
+ |============================
+*/
+
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .our-courses-section {
+    padding: 20px 0;
+  }
+}
+
+/**
+ |============================
+ | Mobile Adaptive
+ |============================
+*/
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .our-courses-section {
+    padding: 24px 0;
+  }
 }
