@@ -92,15 +92,19 @@
      */
     .hero-block{
     display: flex;
+    margin-left: 40px;
     }
     
-    /* .hero-block-wrap{
-    
+    .hero-block-wrap{
+    text-align: center;
+    padding-right: 12px;
     }
-     */
-    /* .svg-input-block{
     
-    } */
+    .svg-input-block{
+    width: 50px;
+    height: 50px;
+
+    }
     
     /* .hero-block-input{
     
