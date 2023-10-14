@@ -65,6 +65,7 @@ color: #BEA69E;
       line-height: 1.25;
       letter-spacing: -0.02em;
     }
-    padding: 24px 0;
+        .marquee__inner {
+      padding: 24px 0;
   }
-
+}
