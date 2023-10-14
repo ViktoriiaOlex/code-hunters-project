@@ -211,61 +211,55 @@
 
 /* Mobile Screen */
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .header-menu {
+  .backdrop {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 18, 18, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: flex;
+    transition: opacity 250ms, visibility 250ms;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-modal {
     position: absolute;
     top: 0;
     right: 0;
     width: 218px;
     height: 100%;
-    opacity: 0;
-    visibility: hidden;
+    padding: 180px 20px;
+    background-color: #bea69e;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #bea69e;
-    background-image: url('../img/header-img/cam_mob.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom;
 
-    background-size: 218px cover;
-    margin: 0 auto;
+    transform: translateX(100%);
+    transition: transform 250ms;
   }
-}
-@media only screen and (min-width: 375px) and (max-width: 767.98px) and (min-resolution: 192dpi) {
-  .header-menu {
-    background-image: url('../img/header-img/cam_mob@2x.jpg');
-    max-width: 218px;
-    margin: 0 auto;
+
+  .header-modal.is-open {
+    transform: translateX(0%);
   }
-}
-@media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .header-menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 218px;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-    background-color: #bea69e;
-    background-image: url('../img/header-img/cam_mob.jpg, ');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    margin: 0 auto;
-  }
-  .header-menu.is-open {
-    transform: translateY(0%);
+
+  .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     display: block;
   }
 
-  .header-menu-button {
+  .header-image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .header-modal-close {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,64 +269,45 @@
     padding: 0;
     width: 32px;
     height: 32px;
-    background-color: transparent;
+    background-color: #bea69e;
     border: none;
-    fill: black;
+  }
+  .header-modal-icon {
+    stroke: #121212;
   }
 
-  .header-menu-list {
-    display: flex;
+  .header-modal-list {
+    display: inline-flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
   }
-
-  .is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .header-menu-list {
-    margin-bottom: auto;
-  }
-
-  .header-menu-link {
+  .header-modal-link {
     color: #121212;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
   }
-  .header-link:hover {
+
+  .header-modal-link:hover {
     font-weight: 700;
   }
 }
 
 /* Tablet Screen */
 @media screen and (min-width: 768px) and (max-width: 1287.98px) {
-  .header-menu {
-    background-image: url('../img/header-img/cam_tablet.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 768px;
-    margin: 0 auto;
+  .header-modal {
   }
 }
 @media only screen and (min-resolution: 192dpi) {
-  .header-menu {
-    background-image: url('../img/header-img/cam_tablet@2x.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 768px;
-    margin: 0 auto;
+  .header-modal {
   }
 }
 
 /* Desktop Screen */
 @media screen and (min-width: 1280px) {
-  .header-menu {
+  .header-modal {
     display: none;
   }
 }
