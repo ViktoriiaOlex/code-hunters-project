@@ -1,70 +1,113 @@
 <header class="header">
-    <div class="container header-inner">
-            <nav class="header-nav">
-                <a class="header-nav-logo" href="./index.html">Focus.Frame</a>
-                <ul class="header-nav-list">
-                    <li>
-                        <a class="header-nav-link" href="./index.html">About us</a>
-                    </li>
-                    <li>
-                        <a class="header-nav-link" href="./index.html">Our courses</a>
-                    </li>
-                    <li>
-                        <a class="header-nav-link" href="./index.html">Our mentors</a>
-                    </li>
-                    <li>
-                        <a class="header-nav-link" href="./index.html">Reviews</a>
-                    </li>
-                    <li>
-                        <a class="header-nav-link" href="./index.html">Contacts</a>
-                    </li>
-                </ul>
+  <div class="container header-inner">
+    <nav class="header-nav">
+      <a class="header-logo" href="#">
+        <svg class="header-logo-icon" width="127" height="20">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="header-nav-list">
+        <li>
+          <a class="header-nav-link" id="about" href="./index.html">About us</a>
+        </li>
+        <li>
+          <a class="header-nav-link" id="courses" href="./index.html"
+            >Our courses</a
+          >
+        </li>
+        <li>
+          <a class="header-nav-link" id="mentors" href="./index.html"
+            >Our mentors</a
+          >
+        </li>
+        <li>
+          <a class="header-nav-link" id="reviews" href="./index.html"
+            >Reviews</a
+          >
+        </li>
+        <li>
+          <a class="header-nav-link" id="contacts" href="./index.html"
+            >Contacts</a
+          >
+        </li>
+      </ul>
 
-                <div class="header-menu">
-                    <svg class="header-menu-camera-icon" width="32" height="32">
-                            <use href="./images/icons.svg#icon-camera"></use>
-                    </svg>
-                    <button class="header-menu-toggle">
-                        <svg class="header-menu-toggle-icon" width="32" height="22">
-                            <use href="./images/icons.svg#icon-close"></use>
-                        </svg>
-                    </button>
-                </div> 
-            </nav>
-            <div class="header-button">
-                <button class="header-button-singup" type="submit" name="sing-up">Sign up</button>
-            </div>
+      <div class="header-menu">
+        <a class="header-menu-camera" id="sign-up" href="./index.html">
+          <svg class="header-menu-camera-icon" width="16" height="16">
+            <use href="./img/icons.svg#icon-header-camera"></use>
+          </svg>
+        </a>
+        <button class="header-menu-toggle">
+          <svg class="header-menu-toggle-icon" width="32" height="22">
+            <use href="./img/icons.svg#icon-header-menu-button"></use>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div>
+      <a class="header-button" id="sign-up" href="./index.html">
+        <button class="header-button-singup" type="submit" name="Sing-up">
+          Sign up
+        </button>
+      </a>
     </div>
-</header> 
+  </div>
+</header>
 
 <!-- Mobile-menu -->
 
-<div class="mobile-menu-container is-open">
-    <div class="mobile-menu-inner">
+<div class="mobile-menu-container is-hidden">
+  <div class="mobile-menu-inner">
     <button class="mobile-menu-button" type="button">
-        <svg class="mobile-menu-icon" width="32" height="32">
-            <use href="./images/icons.svg#icon-close"></use>
-        </svg>
+      <svg class="mobile-menu-icon" width="32" height="32">
+        <use href="../images/icons.svg#icon-close"></use>
+      </svg>
     </button>
     <ul class="mobile-menu-list">
-        <li>
-            <a class="mobile-menu-link" href="./index.html">About us</a>
-        </liclass=>
-        <li>
-            <a class="mobile-menu-link" href="./index.html">Our courses</a>
-        </liclass=>
-        <li>
-            <a class="mobile-menu-link" href="./index.html">Our mentors</a>
-        </liclass=>
-        <li>
-            <a class="mobile-menu-link" href="./index.html">Reviews</a>
-        </liclass=>
-        <li>
-            <a class="mobile-menu-link" href="./index.html">Contacts</a>
-        </li>
+      <li>
+        <a class="mobile-menu-link" id="about" href="./index.html">About us</a>
+      </li>
+      <li>
+        <a class="mobile-menu-link" id="courses" href="./index.html"
+          >Our courses</a
+        >
+      </li>
+      <li>
+        <a class="mobile-menu-link" id="mentors" href="./index.html"
+          >Our mentors</a
+        >
+      </li>
+      <li>
+        <a class="mobile-menu-link" id="reviews" href="./index.html">Reviews</a>
+      </li>
+      <li>
+        <a class="mobile-menu-link" id="contacts" href="./index.html"
+          >Contacts</a
+        >
+      </li>
     </ul>
-    <img class="mobile-menu-image" src="./images/header-mobile-menu-image.jpg"
-    alt="Camera" width="478" height="480"/>
-    </div>
+    <img
+      class="mobile-menu-image-mobile"
+      srcset="
+        ./img/header-img/cam_mob.jpg    1x,
+        ./img/header-img/cam_mob@2x.jpg 2x
+      "
+      src="./img/header-img/cam_mob.jpg"
+      alt="Camera"
+      width="329"
+      height="218"
+    />
+    <img
+      class="mobile-menu-image-tablet"
+      srcset="
+        ./img/header-img/cam_tablet.jpg    1x,
+        ./img/header-img/cam_tablet@2x.jpg 2x
+      "
+      src="./img/header-img/cam_mob.jpg"
+      alt="Camera"
+      width="476"
+      height="480"
+    />
+  </div>
 </div>
-
