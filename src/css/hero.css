@@ -86,24 +86,22 @@
       letter-spacing: -0.04em;
     }
     
-    /* .hero-svg-input{
-    
-    }
-     */
+
     .hero-block{
     display: flex;
     margin-left: 40px;
     }
     
-    .hero-block-wrap{
-    text-align: center;
+    .hero-arrow-link{
     padding-right: 12px;
-    }
-    
-    .svg-input-block{
-    width: 50px;
-    height: 50px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    fill: #1d1d1d;
+    background-color:   #BEA69E;
+    border-radius: 100%;
     }
     
     /* .hero-block-input{
@@ -143,7 +141,7 @@
   
     } */
   
-    /* @media screen and (min-width:768px){
+    @media screen and (min-width:768px){
         .hero-section{
     
         }
@@ -232,7 +230,7 @@
         }
     }
     
-    @media screen and (min-width:1080px){
+    /* @media screen and (min-width:1080px){
         .hero-section{
     
         }
