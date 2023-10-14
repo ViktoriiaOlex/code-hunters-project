@@ -10,11 +10,12 @@
                     </div>
                         <div class="hero-wrap">
                             <div class="wrap-image">
-                                <img class="image"
-                                src="./img/hero-img/students_desktop.jpg"
-                                alt="students"
-                                width="135"
-                                />
+                                <picture class="" >
+                                    <source media="(min-width: 375px)" srcset="">
+                                    <source media="(min-width: 768px)" srcset="">
+                                    <source media="(min-width: 1280px)" srcset="">
+                                    <img src="./img/hero-img/students_desktop.jpg" alt="students" width="135">
+                                </picture>
                             </div>
                             <div class="wrap-div-hero">
                                 <ul class="hero-wrap-inner">
@@ -23,6 +24,7 @@
                                         id="reviews">Our happy students</a>
                                     </li>
                                     <li>
+                                        
                                         <svg class="hero-svg-input" 
                                         width="18" 
                                         height="8.6">
