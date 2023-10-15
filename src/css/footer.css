@@ -152,6 +152,7 @@
 
 @media screen and (min-width: 1280px) {
     .footer {
+        margin-top: 75px;
         padding-top: 50px;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         background-image: url(../img/footer-img/bg-lines_desk@2x.png);
