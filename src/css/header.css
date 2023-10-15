@@ -232,7 +232,7 @@
     height: 100%;
     padding: 180px 20px;
     background-color: #bea69e;
-    background-image: url('./img/header-img/cam_mob.jpg');
+    background-image: url('../img/header-img/cam_mob.jpg');
     background-size: 218px 329px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -298,7 +298,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1287.98px) and (min-resolution: 192dpi) {
   .header-modal {
-    background-image: url('./img/header-img/cam_mob@2x.jpg');
+    background-image: url('../img/header-img/cam_mob@2x.jpg');
     background-size: 218px 329px;
   }
 }
@@ -326,7 +326,7 @@
     height: 100%;
     padding: 232px 64px;
     background-color: #bea69e;
-    background-image: url('./img/header-img/cam_tablet.jpg');
+    background-image: url('../img/header-img/cam_tablet.jpg');
     background-size: 480px 476px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -392,7 +392,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1287.98px) and (min-resolution: 192dpi) {
   .header-modal {
-    background-image: url('./img/header-img/cam_tablet@2x.jpg');
+    background-image: url('../img/header-img/cam_tablet@2x.jpg');
     background-size: 480px 476px;
   }
 }
