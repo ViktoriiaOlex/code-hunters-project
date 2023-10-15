@@ -1,14 +1,12 @@
 .sign-up-container {
-  max-width: 335px;
-
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     max-width: 100%;
-  }
+  } */
 
   @media screen and (min-width: 1280px) {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    gap: 60px;
   }
 }
 
