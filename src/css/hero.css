@@ -138,6 +138,11 @@
     letter-spacing: -0.04em;
   }
 
+  .hero-picture{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+   }
   .hero-photograf{
     margin-bottom: 0;
   }
@@ -157,7 +162,7 @@
 
   @media screen and (min-width:768px) and (max-width: 1287.98px) {
   .hero-section{
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   }
 
   .hero-inner{
@@ -184,6 +189,13 @@
 .wrap-image{
   width: 135px;
 }
+
+.hero-picture{
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
     .hero-photograf{
       width: 393px;
       margin-left: auto;
@@ -206,7 +218,7 @@
   @media screen and (min-width:1280px) {
     .hero-section{
       width: 100%;
-      padding-bottom: 150px;
+      margin-bottom: 150px;
       }
       
       .hero-inner{
@@ -262,6 +274,10 @@
       margin-top: 136px;
       }
       
+    .hero-wrapper{
+      width: 220px;
+    }
+
       .wrap-image{
       width: 135px;
       }
@@ -278,7 +294,11 @@
       height: 56px;
       }
       
-  
+    .hero-wrap-inner{
+      flex-direction: column;
+    }
+
+
       .hero-link-students{
         color: #FFF;
         font-size: 16px;
@@ -291,6 +311,7 @@
       .hero-block{
       display: flex;
       margin-left: 40px;
+      width: unset;
       }
       
     .svg-input-block{
@@ -333,6 +354,12 @@
         font-weight: 500;
         line-height:1.25;
         letter-spacing: -0.04em;
+      }
+
+      .hero-picture{
+       margin-bottom: 0;
+       margin-left: auto;
+       margin-right: auto;
       }
 
       .hero-photograf{
