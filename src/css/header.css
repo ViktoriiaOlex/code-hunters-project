@@ -216,11 +216,11 @@
     width: 100%;
     height: 100%;
     background-color: rgba(18, 18, 18, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    /* opacity: 1;
+    visibility: visible;
+    pointer-events: none; */
     display: flex;
-    transition: opacity 250ms, visibility 250ms;
+    /* transition: opacity 250ms, visibility 250ms; */
     justify-content: center;
     align-items: center;
   }
@@ -231,6 +231,7 @@
     width: 218px;
     height: 100%;
     padding: 180px 20px;
+    pointer-events: none;
     background-color: #bea69e;
     background-image: url('../img/header-img/cam_mob.jpg');
     background-size: 218px 329px;
@@ -238,23 +239,30 @@
     background-position: bottom right;
     border: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(100%);
-    transition: transform 250ms;
+    justify-content: flex-start;
+    align-items: baseline;
+    /* transform: translateX(100%);
+    transition: transform 250ms; */
   }
 
-  .header-modal.is-open {
+  /* .header-modal.is-open {
     transform: translateX(0%);
-  }
+  } */
 
-  .is-open {
+  /* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     display: block;
+  } */
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
-
+  .no-scroll {
+    overflow: hidden;
+  }
   .header-image {
     position: absolute;
     left: 0;
@@ -279,7 +287,7 @@
   }
 
   .header-modal-list {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
@@ -310,11 +318,12 @@
     width: 100%;
     height: 100%;
     background-color: rgba(18, 18, 18, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    /* opacity: 1;
+    visibility: visible;
+    overflow: auto;
+    pointer-events: none; */
     display: flex;
-    transition: opacity 250ms, visibility 250ms;
+    /* transition: opacity 250ms, visibility 250ms; */
     justify-content: center;
     align-items: center;
   }
@@ -332,22 +341,36 @@
     background-position: bottom right;
     border: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* opacity: 1;
+    visibility: visible;
+    overflow: auto; */
+    /* pointer-events: none;
     transform: translateX(100%);
-    transition: transform 250ms;
+    transition: transform 250ms; */
   }
-  .header-modal.is-open {
+  /* .header-modal.is-open {
     transform: translateX(0%);
-  }
+  } */
 
-  .is-open {
+  /* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     display: block;
+  } */
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
-
+  .modal-open {
+    overflow: hidden;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
   .header-image {
     position: absolute;
     left: 0;
@@ -365,7 +388,6 @@
     width: 40px;
     height: 40px;
     background-color: #bea69e;
-
     border: none;
   }
   .header-modal-icon {
@@ -373,7 +395,7 @@
   }
 
   .header-modal-list {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
@@ -406,22 +428,24 @@
 
 /* Header-Hero Background */
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .header-hero {
-    background-image: url(../img/header-hero/graphic_mob.png);
+  .wrapper {
+    background-image: url(../img/header-hero/graphic_mob@2x.png);
     background-position: center;
     background-size: cover;
+    max-width: 768px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279.9px) {
-  .header-hero {
-    background-image: url(../img/header-hero/graphic_tab.png);
+  .wrapper {
+    background-image: url(../img/header-hero/graphic_tab@2x.png);
     background-position: center;
     background-size: cover;
   }
 }
 @media screen and (min-width: 1280px) {
-  .header-hero {
-    background-image: url(../img/header-hero/graphic_desk.png);
+  .wrapper {
+    background-image: url(../img/header-hero/graphic_desk@2x.png);
     background-size: cover;
     background-position: center;
   }
