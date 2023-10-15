@@ -69,13 +69,13 @@
   }
   
   .wrap-div-hero{
-  flex-direction:column;
+    padding-top: 4px;
   }
   
   .hero-wrap-inner{
     display: flex;
-    width: 89px;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .hero-link-students{
@@ -176,6 +176,10 @@
     margin-bottom: 0;
     }      
 
+.hero-wrapper{
+  width: unset;
+}
+
 .hero-wrapper-div{
   height: 54px;
   width: unset;
@@ -183,6 +187,10 @@
 
 .wrap-image{
   width: 135px;
+}
+
+.wrap-div-hero{
+  width: 82px;
 }
 
 .hero-picture{
@@ -288,6 +296,7 @@
       
     .hero-wrap-inner{
       flex-direction: column;
+      align-items: left;
     }
 
 
