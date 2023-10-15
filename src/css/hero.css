@@ -14,14 +14,17 @@
   
   .hero-input{
   margin-bottom: 20px;
+  width: 295px;
   }
   
   .hero-text{
     color: #FFF;
+    font-family: DM sans;
     font-size: 40px;
     font-weight: 500;
     line-height:1.1;
     letter-spacing: -0.03em;
+    width: 295px;
   }
   
   .hero-text-inner{
@@ -31,6 +34,8 @@
     line-height:1.1;
     letter-spacing: -0.04em;
     flex-wrap: wrap;
+    font-family: DM sans;
+    font-style: italic;
   }
   
   
@@ -172,9 +177,31 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -.03em;
+    width: 517px;
   }
 
-  
+  .hero-text-inner{
+    color: #bea69e;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -.04em;
+    font-style: italic;
+  }
+
+  .hero-paragraf{
+    width: 418px;
+  }
+
+.paragraf-hero-inner{
+  width: 418px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+}
+
   .hero-inner-wrapper{
     width:400px ;
   }
@@ -303,11 +330,6 @@
       height: 56px;
       }
       
-    .hero-wrap-inner{
-      flex-direction: column;
-      align-items: left;
-    }
-
 
       .hero-link-students{
         color: #FFF;
