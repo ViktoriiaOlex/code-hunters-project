@@ -403,3 +403,26 @@
     display: none;
   }
 }
+
+/* Header-Hero Background */
+@media screen and (min-width: 375px) and (max-width: 767.98px) {
+  .header-hero {
+    background-image: url(../img/header-hero/graphic_mob.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279.9px) {
+  .header-hero {
+    background-image: url(../img/header-hero/graphic_tab.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-hero {
+    background-image: url(../img/header-hero/graphic_desk.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
