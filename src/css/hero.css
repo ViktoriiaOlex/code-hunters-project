@@ -47,6 +47,7 @@
   display: flex;
   height: 44px;
   margin-top: 30px;
+  margin-bottom: 85px;
   }
   
   .hero-wrapper-div{
@@ -173,6 +174,7 @@
     .hero-wrap{
     margin-top: 40px;
     height: 95px;
+    margin-bottom: 0;
     }      
 
 .hero-wrapper-div{
@@ -262,6 +264,7 @@
       width: 388px;
       height: 54px;
       margin-top: 136px;
+      margin-bottom: 0;
       }
       
     .hero-wrapper{
@@ -354,6 +357,7 @@
 
       .hero-photograf{
         margin: 0 auto;
+        width: 393;
       }
   }
   
