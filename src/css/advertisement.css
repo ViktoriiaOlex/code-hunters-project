@@ -1,6 +1,6 @@
 advertisement-section {
     border: 3px solid #FFF;
-    
+   
         
 }
 .marquee {
@@ -13,8 +13,7 @@ letter-spacing: -0.02em;
 border-width: 1pxpx 0;
   border-style: solid none;
   border-color: rgba(255, 255, 255, 0.20);
-  /* margin-top: 150px;
-  margin-bottom: 150px; */
+  margin-bottom: 75px;
 }
 
 .marquee__inner {

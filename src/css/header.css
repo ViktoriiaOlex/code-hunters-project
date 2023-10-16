@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: center;
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
   }
   .header-nav {
     display: flex;
@@ -434,6 +434,10 @@
 
 /* Header-Hero
   Background */
+  .wrapper {
+    
+
+  }
 @media screen and (min-width: 375px) and (max-width: 767.98px) {
   .wrapper {
     background-image: url(../img/header-hero/graphic_mob.png);
