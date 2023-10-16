@@ -27,7 +27,6 @@
     right: 0;
     width: 218px;
     height: 100%;
-    padding: 180px 20px;
     pointer-events: none;
     background-color: #bea69e;
     /* background-image: url('../img/header-img/cam_mob.jpg'); */
@@ -104,7 +103,12 @@
   .header-modal-link:hover {
     font-weight: 700;
   }
+
+  .header-modal-container-list {
+    padding: 180px 20px 133px;
+  }
 }
+
 
 /* @media screen and (min-width: 768px) and (max-width: 1287.98px) and (min-resolution: 192dpi) { */
 /* .header-modal { */
@@ -137,7 +141,6 @@
     right: 0;
     width: 480px;
     height: 100%;
-    padding: 232px 64px;
     background-color: #bea69e;
     /* background-image: url('../img/header-img/cam_tablet.jpg'); */
     /* background-size: 480px 476px; */
@@ -165,6 +168,10 @@
     pointer-events: auto;
     display: block;
   } */
+  .header-modal-container-list {
+    padding: 232px 64px 114px;
+  }
+
   .is-hidden {
     opacity: 0;
     visibility: hidden;
