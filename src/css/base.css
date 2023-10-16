@@ -57,27 +57,3 @@ body {
     outline-offset: -2px;
   }
 }
-/* Header-Hero Background */
-@media screen and (min-width: 375px) and (max-width: 767.98px) {
-  .wrapper {
-    background-image: url(../img/header-hero/graphic_mob@2x.png);
-    background-position: center;
-    background-size: cover;
-    max-width: 100;
-    margin: 0 auto;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1279.9px) {
-  .wrapper {
-    background-image: url(../img/header-hero/graphic_tab@2x.png);
-    background-position: center;
-    background-size: cover;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .wrapper {
-    background-image: url(../img/header-hero/graphic_desk@2x.png);
-    background-size: cover;
-    background-position: center;
-  }
-}
