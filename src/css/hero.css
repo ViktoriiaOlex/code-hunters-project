@@ -1,13 +1,11 @@
 .hero-section{
   width: 100%;
-  margin-top: 20px;
   }
   
   .hero-inner{
   background-color: #1d1d1d;
   border-radius: 30px;
   width: 100%;
-  flex-wrap: wrap;
   padding-left: 20px;
   padding-top: 40px;
   }
@@ -204,6 +202,8 @@
 
   .hero-inner-wrapper{
     width:400px ;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
     .hero-wrap{
@@ -302,6 +302,11 @@
         letter-spacing: -0.02em;
       }
       
+      .hero-inner-wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
       .hero-wrap{
       display: flex;
       width: 388px;
