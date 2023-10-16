@@ -438,9 +438,9 @@
   .wrapper {
     background-image: url(../img/header-hero/graphic_mob.png);
     background-position: top;
-    background-size: cover;
+    background-size: 100%;
     margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279.9px) {
@@ -448,13 +448,16 @@
     background-image: url(../img/header-hero/graphic_tab.png);
     background-position: top;
     background-size: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 1280px) {
   .wrapper {
     background-image: url(../img/header-hero/graphic_desk.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: top;
+    background-repeat: no-repeat;
     margin: 0;
   }
 }
