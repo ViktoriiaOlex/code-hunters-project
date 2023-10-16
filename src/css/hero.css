@@ -6,6 +6,7 @@
   background-color: #1d1d1d;
   border-radius: 30px;
   width: 100%;
+  flex-wrap: wrap;
   padding-left: 20px;
   padding-top: 40px;
   }
@@ -187,6 +188,11 @@
     font-style: italic;
   }
 
+.hero-wrap-inner{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
   .hero-paragraf{
     width: 418px;
   }
@@ -202,8 +208,6 @@
 
   .hero-inner-wrapper{
     width:400px ;
-    display: flex;
-    flex-wrap: nowrap;
   }
 
     .hero-wrap{
@@ -290,6 +294,11 @@
         letter-spacing: -0.04em;
       }
       
+      .hero-wrap-inner{
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
       .hero-paragraf{
       width: 418px;
       }
@@ -302,11 +311,6 @@
         letter-spacing: -0.02em;
       }
       
-      .hero-inner-wrapper{
-        display: flex;
-        flex-wrap: nowrap;
-      }
-
       .hero-wrap{
       display: flex;
       width: 388px;
