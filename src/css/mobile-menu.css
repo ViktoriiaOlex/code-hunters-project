@@ -84,13 +84,6 @@
   .header-modal-link:hover {
     font-weight: 700;
   }
-
-  .header-image {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-  }
 }
 
 /* Tablet Screen */
@@ -176,9 +169,6 @@
 
   .header-modal-link:hover {
     font-weight: 700;
-  }
-  .header-image {
-    width: 100%;
   }
 }
 
