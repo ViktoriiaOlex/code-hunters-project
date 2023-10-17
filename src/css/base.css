@@ -24,8 +24,8 @@ body {
     max-width: 320px;
     padding: 0 20px;
 
-    outline: 2px solid rgb(129, 236, 14);
-    outline-offset: -2px;
+    /* outline: 2px solid rgb(129, 236, 14);
+    outline-offset: -2px; */
   }
   .section {
     padding: 40px 0;
